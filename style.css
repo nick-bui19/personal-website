@@ -1,17 +1,22 @@
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-.header-flex {
+.header1{
     display: flex;
-    text-align: center;
-    justify-content: flex-start;
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -20,7 +25,8 @@ ul {
     gap: 8px;
 }
 
-/* edit link and list properties */
+
+/* edit link, list, and image properties */
 a {
     text-decoration: none;
     color: white;
@@ -28,4 +34,22 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+img {
+    width: 600px;
+}
+
+/*edit any text properties */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+/*edit any button properties */
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
 }
