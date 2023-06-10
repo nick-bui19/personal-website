@@ -19,6 +19,23 @@ body {
     align-items: center;
 }
 
+.certificates-section {
+    margin: 20px 0;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.certificates-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.certificate-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
 ul {
     display: flex;
     text-align: center;
@@ -45,11 +62,4 @@ img {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8
-}
-
-/*edit any button properties */
-button {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 6px;
 }
