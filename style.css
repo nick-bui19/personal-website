@@ -12,7 +12,7 @@ body {
     flex-direction: column;
 }
 
-.header1{
+.header1, .header2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +37,7 @@ ul {
 }
 
 img {
-    width: 600px;
+    width: 200px;
 }
 
 /*edit any text properties */
